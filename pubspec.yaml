@@ -1,0 +1,47 @@
+name: happy_new_year
+description: A new Flutter application.
+
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  animated_text_kit: ^2.0.0
+  google_fonts: ^0.2.0
+  flutter_svg: ^0.15.0
+  gradient_text: ^1.0.2
+  auto_size_text: ^2.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    # assets-generator-begin
+    # assets/img/*
+    - assets/img/2020.png
+    - assets/img/bg.svg
+    - assets/img/fireworks.gif
+    - assets/img/giphy.gif
+    - assets/img/newyear.png
+    - assets/img/twinkleBig.gif
+    - assets/img/twinkleSmall.gif
+    # assets-generator-end
